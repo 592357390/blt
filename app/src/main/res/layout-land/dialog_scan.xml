@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="379px"
+            android:layout_height="555px"
+            android:background="@mipmap/bg_scan"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/scanBtn"
+            android:layout_margin="30px"
+            android:layout_gravity="bottom|left"
+            android:text="扫码连接"
+            android:textSize="20px"
+            android:visibility="gone"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/yellow_cornor_bg"
+            android:layout_width="130px"
+            android:layout_height="55px" />
+
+        <TextView
+            android:gravity="center"
+            android:textSize="20px"
+            android:layout_marginTop="40px"
+            android:layout_gravity="center"
+            android:text="当前无设备连接"
+            android:layout_width="230px"
+            android:layout_height="55px" />
+
+        <TextView
+            android:id="@+id/txtBtn"
+            android:layout_margin="30px"
+            android:gravity="center"
+            android:layout_marginBottom="40px"
+            android:textSize="20px"
+            android:layout_gravity="bottom|center_horizontal"
+            android:textColor="@color/white"
+            android:background="@drawable/yellow_cornor_bg"
+            android:text="手动连接"
+            android:layout_width="230px"
+            android:layout_height="55px" />
+
+    </FrameLayout>
+
+    <ImageView
+        android:layout_width="2px"
+        android:layout_height="40px"
+        android:background="@mipmap/ic_line" />
+
+    <ImageView
+        android:id="@+id/close"
+        android:layout_width="53px"
+        android:layout_height="53px"
+        android:background="@mipmap/ic_close" />
+
+
+</LinearLayout>
